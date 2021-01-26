@@ -1,0 +1,7 @@
+awsp()
+{
+    cd ~/.aws
+    echo swapping to $1
+    python aws_default_profile_swap.py $1
+    cd -
+}
